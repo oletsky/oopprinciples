@@ -2,7 +2,7 @@ package oletsky.java.demoobjects;
 
 /**
  * @author O.Oletsky
- * The first version of a progrsm
+ * The first version of a program
  * demonstrating the class Person1 without constructors
  */
 
