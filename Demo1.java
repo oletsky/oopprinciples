@@ -14,19 +14,19 @@ public class Demo1 {
         Person1 ivanenko = new Person1();
         ivanenko.name="Іваненко Іван";
         ivanenko.age=92;
-        ivanenko.temper="сангвінік";
+        ivanenko.gender="male";
         //First instance
         Person1 petrenko = new Person1();
         petrenko.name="Петренко Марія";
         petrenko.age=25;
-        petrenko.temper="флегматик";
+        petrenko.gender="female";
         //List of people
         ArrayList<Person1> listOfPeople = new ArrayList<>();
         listOfPeople.add(ivanenko);
         listOfPeople.add(petrenko);
         //Looking through the list of people
         for (var p:listOfPeople) {
-            System.out.println(p.name+" - "+p.age+" - "+p.temper);
+            System.out.println(p.name+" - "+p.age+" - "+p.gender);
         }
     }
 }
